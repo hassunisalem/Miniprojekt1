@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132ee6f0-0260-49c4-87dc-db2f048f2270" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/server/protocol.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/server/protocol.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/server/server.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/server/Server.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/thread/rest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/thread/rest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/KotLin-threads-Coroutines.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/server/MiniProject1.kts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/server/MiniProject1.kts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

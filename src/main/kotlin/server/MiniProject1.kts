@@ -11,6 +11,7 @@ interface WebContent {
 }
 
 class WebServer(val content: WebContent, val port: Int) {
+    var running = true
     fun start() { 
         val serverSocket = ServerSocket(port)
         while (true)
@@ -21,7 +22,9 @@ class WebServer(val content: WebContent, val port: Int) {
                 handle(Request(socket.getInputStream()), Response(socket.getOutputStream()))
             }
         }}
-    fun stop() { TODO("Implement stop") }
+    fun stop() {
+        running = false
+        serverSocket.close() }
 }
 
 
